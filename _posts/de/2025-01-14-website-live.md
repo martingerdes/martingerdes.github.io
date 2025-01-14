@@ -6,9 +6,7 @@ tags: update
 categories: website book
 ---
 
-Da die E-Book Variante des Buches erwerbbar ist, habe ich die Webseite jetzt live geschalten.
-
-Das Taschenbuch ist noch in der Prüfung durch Amazon, sollte aber innerhalb der nächsten Tage ebenfalls verfügbar sein. Sobald die Produktseite existiert, ergänze ich den Link dorthin auf der Startseite, neben der E-Book Variante.
+Taschenbuch und E-Book sind erwerbbar, somit habe ich die Webseite live geschalten. :-)
 
 Ich habe in den letzten Tagen die frei verfügbare HTML Version des Buches deutlich verbessert, indem ich den per Konvertiertierungstool erzeugten HTML Code mithilfe eines Skriptes modifiziere, und indem ich das genutzte CSS angepasst habe.
 
