@@ -33,6 +33,5 @@ Bisher keine Änderungen
 Die HTML Version des Buches wurde mithilfe der LibreOffice Writer Erweiterung "Writer2xhtml export filters" aus der Druckfassung generiert.  
 Die Unterschiede der HTML Version sind auf Beschränkungen dieses Tools zurückzuführen.
 
-* Die Formatierung von Grafiken (Kapitel 9.2: Architekturzeichnung) und Tabellen (Kapitel 12.2: Beispielrechnung) innerhalb einer Box ist inkorrekt.
-
-* Kein Seitenumbruch vor der Widmung.
+* Die Formatierung von Grafiken (Kapitel 9.2: Architekturzeichnung) und Tabellen (Kapitel 12.2: Beispielrechnung) innerhalb einer Textbox ist inkorrekt.
+* Dark-Mode wird nicht unterstützt.
