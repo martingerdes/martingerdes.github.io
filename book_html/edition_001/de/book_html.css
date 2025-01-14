@@ -12,7 +12,7 @@ p.Subtitle {margin-left:0;margin-right:0;margin-top:0.4006299rem;margin-bottom:0
 p.Caption {margin-left:0;margin-right:0;margin-top:0.7937008rem;margin-bottom:0.7937008rem;border:none;padding:0;font-style:italic;font-size:1.6000001rem}
 p.Numbering1 {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.38173229rem;border:none;padding:0;text-indent:0;text-align:justify;font-size:1.6000001rem}
 p.TableContents {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;font-size:1.6000001rem}
-p.indexheading {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;text-align:left;font-style:italic;font-size:1.6000001rem}
+p.indexheading {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;text-align:left;font-style:italic;font-size:1.6000001rem;display: flex;justify-content: space-between;}
 p.Textbody {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0.9335434rem;border:none;padding:0;text-align:justify;font-size:1.6000001rem}
 p.TableHeading {margin-left:0;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;text-align:center;font-weight:bold;font-size:1.6000001rem}
 p.Footnote {margin-left:2.2677166rem;margin-right:0;margin-top:0;margin-bottom:0;border:none;padding:0;text-indent:-2.2677166rem;text-align:justify;font-size:1.3333334rem}
