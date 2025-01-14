@@ -1,0 +1,91 @@
+archive_category: ein Archiv der Beiträge in dieser Kategorie
+archive_tag: ein Archiv der Beiträge mit diesem Stichwort
+archive_year: ein Archiv der Beiträge dieses Jahres
+blog:
+  navigation_title: blog
+categories:
+  fun: Freizeit
+  work: Arbeit
+citation:
+  bibtex: "oder als ein BibTeX Eintrag:"
+  introduction: "Falls das für dich nützlich war, zitiere es bitte als:"
+contact_note: You can even add a little note about which of these is the best way to reach you.
+footer_text: > # the ">" symbol means to ignore newlines until "titles:"
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+latest_posts: neueste Blogeinträge
+months:
+  long:
+    january: Januar
+    february: Februar
+    march: März
+    april: April
+    may: Mai
+    june: Juni
+    july: Juli
+    august: August
+    september: September
+    october: Oktober
+    november: November
+    december: Dezember
+  short:
+    january: Jan
+    february: Feb
+    march: Mar
+    april: Apr
+    may: Mai
+    june: Jun
+    july: Jul
+    august: Aug
+    september: Sep
+    october: Okt
+    november: Nov
+    december: Dez
+news: Neuigkeiten
+newsletter:
+  back: Zurück
+  error: "Oops! Etwas schief gegangen, bitte versuche es erneut."
+  subscribe: abbonieren
+  subscribed: "Du hast den Newsletter erfolgreich abboniert."
+  subscribe_to_receive: "Abboniere den Newsletter, um über zukünftige Einträge benachrichtigt zu werden:"
+  too_many_signups: "Zu viele Abbonements, versuche es bitte später noch Mal"
+  wait: "Bitte warten..."
+no_news: Bisher keine Neuigkeiten...
+pagination:
+  page: Seite
+post:
+  created_in: Erstellt in
+  created_by: durch
+  last_updated: zuletzt aktualisiert am
+references: Referenzen
+related_posts:
+  description: "Diese Beiträge könnten dich ebenfalls interessieren:"
+  title: Hat dir dieser Beitrag gefallen?
+search:
+  dark_theme:
+    description: Wechsle zum dunklen Theme dieser Webseite
+    title: Ändere Theme zu "Dunkel"
+  dropdown: Dropdown
+  email: Sende eine E-Mail
+  footer:
+    close: schließen
+    navigate: navigieren
+    parent: zur übergeordneten Ebene wechseln
+    select: auswählen
+  languages: Sprachen
+  light_theme:
+    description: Wechsle zum hellen Theme dieser Webseite
+    title: Ändere Theme zu "Hell"
+  navigation: Navigationsmenü
+  news: Neuigkeiten
+  placeholder: Schreibe, um anzufangen zu suchen
+  posts: Beiträge
+  projects: Projekte
+  socials: Soziales
+  system_theme:
+    description: Wechsle Theme dieser Webseite zur Standardeinstellung
+    title: Nutze Standard-Theme
+  theme: Theme
+selected_publications: ausgewählte Veröffentlichungen
+site_description: Webseite des Buches "Zukunftsvisionen - Projekt Entfaltung"
+title: "Zukunftsvisionen: Projekt Entfaltung"

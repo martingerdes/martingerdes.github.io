@@ -196,6 +196,7 @@ ul.task-list input[type="checkbox"] {
   width: 100%;
 
   .more-info {
+    text-align: center;
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
@@ -208,11 +209,11 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 @media (min-width: 576px) {
@@ -301,6 +302,15 @@ ul.task-list input[type="checkbox"] {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+
+  .navbar-nav .nav-item.bold > .nav-link {
+    background-color: inherit;
+    font-weight: bolder;
 
     &:hover {
       color: var(--global-hover-color);
