@@ -6,6 +6,6 @@ tags: usability
 categories: website
 ---
 
-Du kannst die Sprache auf Englisch umschalten, indem du die "EN" Schaltfläche rechts oben anklickst (zweiter Menüpunkt von rechts im Navigationsmenü).
+Du kannst die Sprache auf Englisch umschalten, indem du die "EN" Schaltfläche rechts oben anklickst (vorletzter Menüpunkt im Navigationsmenü).
 
-Der ganz rechte Knopf der Navigationsleiste erlaubt den Wechsel zwischen hellem und dunklem Modus der Webseite.
+Der letzte Menüpunkt im Navigationsmenü erlaubt den Wechsel zwischen hellem und dunklem Modus der Webseite.

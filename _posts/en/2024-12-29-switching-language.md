@@ -6,6 +6,6 @@ tags: usability
 categories: website
 ---
 
-You can switch the language to german by pressing the "DE" button in the top right (second button from the right in the navigation menu).
+You can switch the language to german by pressing the "DE" button in the top right (second to last button in the navigation menu).
 
-The rightmost button of the navigation bar allows switching between light and dark mode.
+The last button of the navigation menu allows switching between light and dark mode.
