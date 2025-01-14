@@ -3,7 +3,7 @@ page_id: impressum
 layout: page
 permalink: /impressum/
 title: legal notice
-description: 
+description:
 ---
 
 ### site maintainer

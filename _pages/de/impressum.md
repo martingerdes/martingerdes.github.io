@@ -3,7 +3,7 @@ page_id: impressum
 layout: page
 permalink: /impressum/
 title: Impressum
-description: 
+description:
 ---
 
 ### Seitenbetreiber
