@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-switching-language",
+        },{id: "post-website-live-german-ebook-available",
+      
+        title: "website live, German ebook available",
+      
+      description: "state of publication of website and book",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/website-live/";
+        
+      },
+    },{id: "post-switching-language",
       
         title: "switching language",
       

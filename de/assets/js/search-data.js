@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-sprache-wechseln",
+        },{id: "post-webseite-live-e-book-verfügbar",
+      
+        title: "Webseite Live, E-Book verfügbar",
+      
+      description: "Stand der Veröffentlichung von Webseite und Buch",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/website-live/";
+        
+      },
+    },{id: "post-sprache-wechseln",
       
         title: "Sprache wechseln",
       
