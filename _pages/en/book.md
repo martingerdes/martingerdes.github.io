@@ -3,7 +3,7 @@ page_id: book
 layout: book
 title: book
 permalink: /
-language_hint: Dies ist die englische Version der Webseite. Klicke "DE" rechts oben, um auf Deutsch umzuschalten.
+language_hint: Dies ist die englische Version der Webseite. "DE" rechts oben wechselt auf Deutsch.
 
 profile:
   align: right

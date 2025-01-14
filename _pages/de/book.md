@@ -3,7 +3,7 @@ page_id: book
 layout: book
 title: Buch
 permalink: /
-language_hint: This is the German version of the website. Press "EN" in the top right to switch to English.
+language_hint: This is the German version of the website. "EN" in the top right switches to English.
 
 profile:
   align: right
