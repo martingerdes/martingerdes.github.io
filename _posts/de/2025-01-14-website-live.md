@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Webseite Live, E-Book verfügbar
+title: Webseite Live, Buch verfügbar
 description: Stand der Veröffentlichung von Webseite und Buch
 tags: update
 categories: website book

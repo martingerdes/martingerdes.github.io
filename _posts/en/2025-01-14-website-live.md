@@ -1,6 +1,6 @@
 ---
 layout: post
-title: website live, German ebook available
+title: website live, German book available
 description: state of publication of website and book
 tags: update
 categories: website book
