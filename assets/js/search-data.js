@@ -23,9 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-website-live-german-ebook-available",
+        },{id: "post-website-live-german-book-available",
       
-        title: "website live, German ebook available",
+        title: "website live, German book available",
       
       description: "state of publication of website and book",
       section: "Posts",
