@@ -39,14 +39,14 @@ Bisher keine Änderungen
 - keine Seitenumbrüche, statt dessen ist jedes Teilkapitel eine eigene HTML Datei
 
 - funktionierende Links vom Glossar der Konzepte und Fachbegriffe (Index) zu den Vorkommen  
-Im E-Book stehen dort nur Seitenzahlen.
+  Im E-Book stehen dort nur Seitenzahlen.
 
 - kein Darkmode  
-(Das E-Book unterstützt Dark-Mode. Bilder haben dabei weiterhin vollständig weißen Hintergrund. Das liegt an fehlender Unterstützung der Reader für Transparenz.)
+  (Das E-Book unterstützt Dark-Mode. Bilder haben dabei weiterhin vollständig weißen Hintergrund. Das liegt an fehlender Unterstützung der Reader für Transparenz.)
 
 - Je nach Reader können Bilder im E-Book im Hochformat gestreckt sein. Ein Wechsel ins Querformat zeigt das normale Seitenverhältnis.
 
 - Widmung am Ende des Inhaltsverzeichnissses, Kapitel in Vorbetrachtungen/Zukunftsvisionen/Aktion/Anhänge gegliedert  
-(fehlt im E-Book)
+  (fehlt im E-Book)
 
 - Kapitel 9.1: Text neben den Architekturzeichnungen. Im E-Book steht das Bild allein auf einer Seite.
