@@ -43,4 +43,4 @@ Ein Buch erreichbarer Utopien.
   <p><a href="https://www.amazon.de/dp/B0DSXSZ4DG">Kindle E-Book</a></p>
 </div>
 
-Das Buch ist im <a {% static_href %}href="/book_html/edition_001/de/Zukunftsvisionen.html"{% endstatic_href %} target="_blank">HTML Format</a> frei zugänglich (automatisch generierte Dateien[*](/editions/#unterschiede-der-html-fassung)).
+Das Buch ist im <a {% static_href %}href="/book_html/edition_001/de/Zukunftsvisionen.html"{% endstatic_href %} target="_blank">HTML Format</a> frei zugänglich.
