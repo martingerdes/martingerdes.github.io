@@ -14,8 +14,7 @@ description:
 
 ### contact
 
-email: <{{site.data.socials.email}}>  
-<!--phone: +49 {{site.data.impressum.phone}}-->
+email: <{{site.data.socials.email}}>
 
 ### legal disclaimer
 

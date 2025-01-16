@@ -14,8 +14,7 @@ description:
 
 ### Kontakt
 
-E-Mail: <{{site.data.socials.email}}>  
-<!--Telefon: 0{{site.data.impressum.phone}}-->
+E-Mail: <{{site.data.socials.email}}>
 
 ### Haftungsausschluss
 
