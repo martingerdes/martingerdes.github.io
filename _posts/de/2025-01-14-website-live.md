@@ -6,7 +6,7 @@ tags: update
 categories: website book
 ---
 
-Taschenbuch und E-Book sind erwerbbar, somit habe ich die Webseite live geschalten. :-)
+Taschenbuch und E-Book sind erwerbbar (auch wenn beim Taschenbuch noch "Derzeit nicht verfügbar." angezeigt wird), somit habe ich die Webseite live geschalten. :-)
 
 Ich habe in den letzten Tagen die frei verfügbare HTML Version des Buches deutlich verbessert, indem ich den per Konvertiertierungstool erzeugten HTML Code mithilfe eines Skriptes modifiziere, und indem ich das genutzte CSS angepasst habe.
 
