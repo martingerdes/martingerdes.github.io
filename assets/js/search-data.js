@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-website-live-german-book-available",
+        },{id: "post-paperback-available",
+      
+        title: "paperback available",
+      
+      description: "German paperback can now be ordered by anybody via Amazon",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/paperback/";
+        
+      },
+    },{id: "post-website-live-german-book-available",
       
         title: "website live, German book available",
       

@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-webseite-live-buch-verfügbar",
+        },{id: "post-taschenbuch-verfügbar",
+      
+        title: "Taschenbuch verfügbar",
+      
+      description: "Taschenbuch kann jetzt von jedem via Amazon bestellt werden",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/paperback/";
+        
+      },
+    },{id: "post-webseite-live-buch-verfügbar",
       
         title: "Webseite Live, Buch verfügbar",
       
