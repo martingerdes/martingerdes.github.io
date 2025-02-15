@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-paperback-available",
+        },{id: "post-version-1-1",
+      
+        title: "Version 1.1",
+      
+      description: "book version 1.1 published (German)",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/version1_1/";
+        
+      },
+    },{id: "post-paperback-available",
       
         title: "paperback available",
       

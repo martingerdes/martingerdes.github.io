@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-taschenbuch-verfügbar",
+        },{id: "post-version-1-1",
+      
+        title: "Version 1.1",
+      
+      description: "Buchversion 1.1 veröffentlicht",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/version1_1/";
+        
+      },
+    },{id: "post-taschenbuch-verfügbar",
       
         title: "Taschenbuch verfügbar",
       
