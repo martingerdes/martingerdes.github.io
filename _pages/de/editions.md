@@ -8,21 +8,31 @@ nav: true
 nav_order: 6
 ---
 
-Die neueste verfügbare Version des Buches ist die <a {% static_href %}href="/book_html/edition_001/de/Zukunftsvisionen.html"{% endstatic_href %} target="\_blank">1. Auflage</a>.
+Das Buch ist im HTML Format frei zugänglich. Auf dieser Seite befinden sich Links zur neuesten Version und allen veröffentlichten Auflagen.  
+Falls du das Buch hier liest, statt es zu kaufen, würde ich mich über einen <a href="https://www.buymeacoffee.com/futurevisions">Kaffee als Dank</a> sehr freuen!
 
-Alle Links zu HTML Fassungen des Buches sind fix, und führen stets zu einer bestimmten Auflage. Es sollte auf <https://futurevisions.world/de> verlinkt werden, um auf das Buch als Ganzes zu verweisen. Der Link zur neuesten HTML Fassung befindet sich direkt auf der Startseite.
-
----
-
-## Links zu früheren Auflagen des Buches
-
-Bisher keine früheren Auflagen
+Die neueste verfügbare Version des Buches ist <a {% static_href %}href="/book/de/part.html"{% endstatic_href %} target="\_blank">Version 1.1</a> (Link führt stets zur neuesten Version).
 
 ---
 
-## Änderungsprotokoll von Auflage zu Auflage
+## Links zu den bisherigen Auflagen des Buches
 
-Bisher keine Änderungen
+<a {% static_href %}href="/book/01/de/part.html"{% endstatic_href %} target="\_blank">1. Auflage</a>
+
+---
+
+## Änderungsprotokoll 
+
+Änderungen zwischen verschiedenen Auflagen, und von Versionen im Vergleich zur neuesten Auflage.
+Version 1.0 entspricht der 1. Auflage, Version 2.0 der 2. Auflage.
+Ältere Versionsstände, die keiner Auflage entsprechen, sind nicht verlinkt (über das Git Repository aber auffindbar).
+
+#### Version 1.1
+- 5.3: Werbung höher besteuern ("Um diesen Effekt weiter zu verstärken ...")
+- 9.3: Absatz zum Schutz gegen Terrorangriffe ("Dass es in diesem Stadtdesign ...")
+- 10.4: umbenannt in "Themenfelder", "Steuern" ausgelagert (aus BGE)
+- 13.5: Terraforming (eine Seite neuer Text, ab "Seasteading und die Besiedlung von Wüste ...")
+- Migration: aus 10.3 entfernt (nach Artikel 4.5, "Die Tatsache, dass sich Accounts ..."), in 10.4 hinzugefügt (drei Seiten, "Einwanderung"), Glossareintrag
 
 ---
 

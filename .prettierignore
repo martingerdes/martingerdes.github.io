@@ -5,7 +5,7 @@ assets/css/main.scss
 assets/js/distillpub/template.v2.js
 assets/js/search/*.js
 assets/plotly/demo.html
-book_html/**
+book/**
 lighthouse_results/**
 _sass/font-awesome/*.scss
 _sass/tabler-icons/*.scss
