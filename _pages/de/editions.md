@@ -21,13 +21,14 @@ Die neueste verfügbare Version des Buches ist <a {% static_href %}href="/book/d
 
 ---
 
-## Änderungsprotokoll 
+## Änderungsprotokoll
 
 Änderungen zwischen verschiedenen Auflagen, und von Versionen im Vergleich zur neuesten Auflage.
 Version 1.0 entspricht der 1. Auflage, Version 2.0 der 2. Auflage.
 Ältere Versionsstände, die keiner Auflage entsprechen, sind nicht verlinkt (über das Git Repository aber auffindbar).
 
 #### Version 1.1
+
 - 5.3: Werbung höher besteuern ("Um diesen Effekt weiter zu verstärken ...")
 - 9.3: Absatz zum Schutz gegen Terrorangriffe ("Dass es in diesem Stadtdesign ...")
 - 10.4: umbenannt in "Themenfelder", "Steuern" ausgelagert (aus BGE)
