@@ -23,11 +23,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-vereinigte-staaten-von-europa",
+        },{id: "post-united-states-of-europe",
       
-        title: "Vereinigte Staaten von Europa",
+        title: "United States of Europe",
       
-      description: "Zukunftsvision in Anbetracht des Ausfalls der USA",
+      description: "Vision of the future in view of the failure of the USA",
       section: "Posts",
       handler: () => {
         
