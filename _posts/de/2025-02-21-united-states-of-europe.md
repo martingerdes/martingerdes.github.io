@@ -11,7 +11,7 @@ categories: politics
 Zwei Dinge haben sich in den letzten Tagen herauskristallisiert. Eines davon ist offensichtlich, das andere haben viele noch nicht erkannt.
 Das offensichtliche: Die USA unter Trump übernehmen die Rhetorik Russlands (Selenskyj ist ein Diktator, die Ukraine hat den Krieg begonnen, ...), stellen sich damit gegen die Ukraine und Europa, und verabschieden sich somit auch von einer gemeinsamen Wertebasis. Ihre Politik ist jetzt die des Stärkeren, der Imperien, nicht mehr die einer regelbasierten Weltordnung.
 
-### Statsstreich in den USA
+### Staatsstreich in den USA
 
 Weniger offensichtlich: In den USA läuft aktuell ein Staatsstreich. In vier Jahren wird es dort keine freien Wahlen mehr geben. Vermutlich auch schon nicht mehr in zwei Jahren, zu den Midterms. Das hat sich in den 30 Tagen seit Trumps Amtsantritt immer stärker abgezeichnet.
 
