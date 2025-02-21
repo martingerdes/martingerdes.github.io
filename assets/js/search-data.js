@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-version-1-1",
+        },{id: "post-vereinigte-staaten-von-europa",
+      
+        title: "Vereinigte Staaten von Europa",
+      
+      description: "Zukunftsvision in Anbetracht des Ausfalls der USA",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/united-states-of-europe/";
+        
+      },
+    },{id: "post-version-1-1",
       
         title: "Version 1.1",
       
