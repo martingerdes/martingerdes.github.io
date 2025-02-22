@@ -86,6 +86,13 @@ ninja.data = [{
           window.open("mailto:%63%6F%6E%74%61%63%74@%66%75%74%75%72%65%76%69%73%69%6F%6E%73.%77%6F%72%6C%64", "_blank");
         },
       },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/zukunftsvisionen.bsky.social", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
