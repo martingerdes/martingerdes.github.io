@@ -92,6 +92,9 @@ Ist die Gründung abgeschlossen, sind die neuen Strukturen handlungsfähig, dann
 
 Somit ist aus einer Herausforderung eine positive Zukunft für uns in Europa entstanden.
 
+Es gibt auch bereits eine Partei, die ernsthaft für das Ziel der Vereinigten Staaten von Europa eintritt: [Volt](https://volteuropa.org/news/we-need-the-united-states-of-europe).
+Dieser Blogpost ist also nicht die einzige Stimme mit dieser Idee. :-)
+
 ---
 
 Wären die Ideen meines Buches bereits bekannt, oder gäbe es andere glaubhaft ausgearbeitete, positive Zukunftsvisionen in den politischen und gesellschaftlichen Debatten, dann könnte ich hier noch weitergehen. Schauen, welche Ideen [meines Staatskonzeptes](/book/01/de/part42.html#toc77) für die Vereinigten Staaten von Europa adaptierbar wären. Da sie es nicht sind, wäre eine solche Betrachtung natürlich völliger Größenwahn. Es zeigt aber eindrucksvoll, warum es so wichtig ist, darüber nachzudenken, welche Zukunft wir als Gesellschaft erreichen wollen, _bevor_ uns Krisen wie diese schnelle Entscheidungen abverlangen.

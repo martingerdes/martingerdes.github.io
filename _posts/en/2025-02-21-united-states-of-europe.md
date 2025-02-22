@@ -91,6 +91,9 @@ Once the foundation has been completed and the new structures are capable of act
 
 In this way a challenge has been turned into a positive future for us in Europe.
 
+A party already exists which is seriously advocating for the goal of a United States of Europe: [Volt](https://volteuropa.org/news/we-need-the-united-states-of-europe).
+So this blog post is not the only voice with this idea. :-)
+
 ---
 
 If the English translation of my book was already done, and if its ideas were already well known, or if there were other credibly elaborated, positive visions of the future in the political and social debates, then I could go further here. See which ideas of my state concept could be adapted for the United States of Europe. Since they are not, such a discussion would of course be complete megalomania. But it shows impressively why it is so important to think about the future we want to achieve as a society _before_ crises like this one force us to make quick decisions.
