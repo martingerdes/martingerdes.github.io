@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-united-states-of-europe",
+        },{id: "post-leserunde-bei-lovelybooks",
+      
+        title: "Leserunde bei LovelyBooks",
+      
+      description: "Leserunde bei LovelyBooks",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/leserunde/";
+        
+      },
+    },{id: "post-united-states-of-europe",
       
         title: "United States of Europe",
       
