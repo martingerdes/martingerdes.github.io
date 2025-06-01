@@ -15,9 +15,11 @@ Die neueste verfügbare Version des Buches ist <a {% static_href %}href="/book/d
 
 ---
 
-## Links zu den bisherigen Auflagen des Buches
+## Liste der Auflagen
 
-<a {% static_href %}href="/book/01/de/part.html"{% endstatic_href %} target="\_blank">1. Auflage</a>
+| Auflage     | Erscheinungsdatum | ISBN Taschenbuch  | ISBN Gebunden |
+| ----------- | ----------------- | ----------------- | ------------- |
+| <a {% static_href %}href="/book/01/de/part.html"{% endstatic_href %} target="\_blank">1. Auflage</a> | 10.01.2025 | 979-8301433009 | - |
 
 ---
 

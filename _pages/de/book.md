@@ -39,7 +39,7 @@ Ein Buch erreichbarer Utopien.
 </div>
 
 <div style="display: flex; align-items: center; justify-content: space-evenly;">
-  <p><a href="https://www.amazon.de/dp/B0DT1VFZW9">Taschenbuch</a></p>
+  <p><a href="https://www.amazon.de/dp/B0DT1VFZW9" title="ISBN 979-8301433009">Taschenbuch</a></p>
   <p><a href="https://www.amazon.de/dp/B0DSXSZ4DG">Kindle E-Book</a></p>
 </div>
 
