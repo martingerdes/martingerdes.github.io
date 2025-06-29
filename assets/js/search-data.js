@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-leserunde-bei-lovelybooks",
+        },{id: "post-images-open-space-to-9-2",
+      
+        title: "Images Open Space (to 9.2)",
+      
+      description: "Images of the open space of the high-rise concept (chapter 9.2)",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/open_space/";
+        
+      },
+    },{id: "post-leserunde-bei-lovelybooks",
       
         title: "Leserunde bei LovelyBooks",
       

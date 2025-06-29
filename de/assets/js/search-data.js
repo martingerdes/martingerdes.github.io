@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-leserunde-bei-lovelybooks",
+        },{id: "post-bilder-freifläche-zu-9-2",
+      
+        title: "Bilder Freifläche (zu 9.2)",
+      
+      description: "Bilder der Freifläche des Hochhauskonzeptes (Kapitel 9.2)",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/open_space/";
+        
+      },
+    },{id: "post-leserunde-bei-lovelybooks",
       
         title: "Leserunde bei LovelyBooks",
       
