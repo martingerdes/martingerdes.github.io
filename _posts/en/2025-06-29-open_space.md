@@ -1,4 +1,4 @@
----
+--- 
 layout: post
 title: Images Open Space (to 9.2)
 description: Images of the open space of the high-rise concept (chapter 9.2)
@@ -48,4 +48,4 @@ Only with these pictures does one get a real idea of how much can be achieved wi
 
 ---
 
-I have modeled this open space with SketchUp.
+I have modeled this open space with [SketchUp](https://app.sketchup.com). If you would like to explore this model yourself, you can do so by importing [this model file](/assets/skp/open_space.skp) there.
