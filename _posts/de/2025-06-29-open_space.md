@@ -48,4 +48,4 @@ Erst mit diesen Bildern bekommt man eine wirkliche Idee davon, wie viel sich mit
 
 ---
 
-Ich habe die Freifläche mit [SketchUp](https://app.sketchup.com) modelliert. Wer sich selbst in diesem Modell umsehen möchte, kann dies tun, indem er [diese Modelldatei](/assets/skp/open_space.skp) dort importiert.
+Ich habe die Freifläche mit [SketchUp](https://app.sketchup.com) modelliert. Wer sich selbst in diesem Modell umsehen möchte, kann dies tun, indem er [diese Modelldatei](/assets/skp/open_space.skp) dort importiert (Sketchup ist Online kostenlos nutzbar).

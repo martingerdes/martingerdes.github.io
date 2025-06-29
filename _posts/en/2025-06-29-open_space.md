@@ -48,4 +48,4 @@ Only with these pictures does one get a real idea of how much can be achieved wi
 
 ---
 
-I have modeled this open space with [SketchUp](https://app.sketchup.com). If you would like to explore this model yourself, you can do so by importing [this model file](/assets/skp/open_space.skp) there.
+I have modeled this open space with [SketchUp](https://app.sketchup.com). If you would like to explore this model yourself, you can do so by importing [this model file](/assets/skp/open_space.skp) there (SketchUp can be used online free of charge).
