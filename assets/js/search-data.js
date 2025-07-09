@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-images-open-space-to-9-2",
+        },{id: "post-version-1-2",
+      
+        title: "Version 1.2",
+      
+      description: "book version 1.2 published (German)",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/version1_2/";
+        
+      },
+    },{id: "post-images-open-space-to-9-2",
       
         title: "Images Open Space (to 9.2)",
       

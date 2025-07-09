@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-bilder-freifläche-zu-9-2",
+        },{id: "post-version-1-2",
+      
+        title: "Version 1.2",
+      
+      description: "Buchversion 1.2 veröffentlicht",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/version1_2/";
+        
+      },
+    },{id: "post-bilder-freifläche-zu-9-2",
       
         title: "Bilder Freifläche (zu 9.2)",
       
