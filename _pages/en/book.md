@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 Many people are dissatisfied with the state of our society. Not just with specific events, but with the way its systems work. Be it taxes, social welfare, the education system or politics.
 
-A lot is reported and written about their problems. Concrete and elaborated proposals on how through different systems the _causes_ of the problems could be eliminated though, are rare.
+A lot is reported and written about their problems. Concrete and elaborated proposals though on how through different systems the _causes_ of the problems could be fixed, are rare.
 
 This book aims to do better: Point out problems, yes, but more importantly possible solutions to them. Instead of just complaining about systems that are going wrong, it presents ideas for redesigning them.
 

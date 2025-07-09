@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 Viele Menschen sind mit dem Zustand unserer Gesellschaft unzufrieden. Nicht nur mit konkreten Ereignissen, sondern damit, wie ihre Systeme funktionieren. Seien es Steuern, die Sozialhilfe, das Bildungswesen oder die Politik.
 
-Berichtet und geschrieben wird über deren Probleme sehr viel. Konkrete und ausgearbeitete Vorschläge, wie durch andere Systeme die _Ursachen_ der Probleme abgeschafft werden könnten, sind dagegen rar.
+Berichtet und geschrieben wird über deren Probleme sehr viel. Konkrete und ausgearbeitete Vorschläge, wie durch andere Systeme die _Ursachen_ der Probleme behoben werden könnten, sind dagegen rar.
 
 Dieses Buch will es besser machen: Probleme aufzeigen, ja, vor allem aber mögliche Lösungen für sie. Statt über schief laufende Systeme nur zu klagen, stellt es Ideen vor, sie neu zu gestalten.
 
