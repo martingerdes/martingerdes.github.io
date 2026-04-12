@@ -14,7 +14,7 @@ profile:
     <p>© 2024 Martin Gerdes</p>
     <p style="margin-bottom:0.5cm;"><a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a></p><br>
     <p>Support / Thanks:</p>
-    <p><a href="https://www.buymeacoffee.com/futurevisions" target="_blank"><img src="/assets/img/buymeacoffee.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a></p>
+    <p><a href="https://www.buymeacoffee.com/futurities" target="_blank"><img src="/assets/img/buymeacoffee.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a></p>
 
 news: false # includes a list of news items
 latest_posts: true # includes a list of the newest posts
