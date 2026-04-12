@@ -9,9 +9,9 @@ nav_order: 6
 ---
 
 Das Buch ist im HTML Format frei zugänglich. Auf dieser Seite befinden sich Links zur neuesten Version und allen veröffentlichten Auflagen.  
-Falls du das Buch hier liest, statt es zu kaufen, würde ich mich über einen <a href="https://www.buymeacoffee.com/futurevisions">Kaffee als Dank</a> sehr freuen!
+Falls du das Buch hier liest, statt es zu kaufen, würde ich mich über einen <a href="https://www.buymeacoffee.com/futurities">Kaffee als Dank</a> sehr freuen!
 
-Die neueste verfügbare Version des Buches ist <a {% static_href %}href="/book/de/part.html"{% endstatic_href %} target="\_blank">Version 1.2</a> (Link führt stets zur neuesten Version).
+Die neueste verfügbare Version des Buches ist <a {% static_href %}href="/book/de/part.html"{% endstatic_href %} target="\_blank">Version 1.3</a> (Link führt stets zur neuesten Version).
 
 ---
 
@@ -28,6 +28,58 @@ Die neueste verfügbare Version des Buches ist <a {% static_href %}href="/book/d
 Änderungen zwischen verschiedenen Auflagen, und von Versionen im Vergleich zur neuesten Auflage.
 Version 1.0 entspricht der 1. Auflage, Version 2.0 der 2. Auflage.
 Ältere Versionsstände, die keiner Auflage entsprechen, sind nicht verlinkt (über das Git Repository aber auffindbar).
+
+#### Version 1.3
+
+- Viele kleine Verbesserungen, um Sätze einfacher und verständlicher zu formulieren.
+- Typographie: Gedankenstrich genutzt (statt Bindestrich), um Gedanken zu trennen.
+- Typographie: "×" statt "x" als Multipliaktionssymbol eingesetzt
+- Begriffe im Rahmen der Übersetzung geändert:
+  - "öffentlicher Personentransport" -> "öffentliche Verkehrsmittel"
+  - "PD-Dose" -> "PD-Modul"
+  - "Kapselnetzwerk" -> "Kapselnetz"
+  - "Entscheidungswahl" -> "Wahl"
+  - "verpflichtende Allgemeinbidung" -> "verpflichtende Bildung"
+  - "Nachrichtennummer" -> "Dokumentennummer"
+  - "stimmgebend" -> "Stimmgewicht gebend"
+  - "Gemeinschaftswichtung" -> "Wichtung", Nutzung "Wichtung" versus "Stimmgewicht" vereinheitlicht
+  - "Zentralgesetzkanon" -> "Zentralgesetzbuch"
+- 1.1: hunderttausende neue Bücher pro Jahr statt 100 000 in Deutschland -> gleich gut für deutsche und englische Fassung
+- 1.2: Bugfix: Fußnote 3 hat auf das falsche Kapitel verwiesen
+- 1.3: Bilder Stromerzeugung neu erstellt, 2023 durch neue Daten von 2024 ersetzt
+- 2.2: Bessere Erklärung in "Abschätzung verbleibender Verdopplungen" (√2 um Transistoren je Fläche zu verdoppeln)
+- 3.1: Begründung für Energiesatelliten zur Temperatursenkung leicht umformuliert
+- 4.3: Erklärung vereinfacht, wie kostenloses Eis ausgegeben wird
+- 5.3: Erklärung Ausgangs-/Eingangskonto besser strukturiert, Details zu juristischen Körperschaften in Fußnote, Fußnote Hinweisfenster bei Monatsende gelöscht
+- 5.3: Textbox "Integrität der Kulturpunkte" verbessert (Kontoeinträge in Gesamtliste)
+- 5.3: errechnete Vertrauenswerte, um Fake-Photos und -Videos zu erkennen; Schlussparagraph neu geschrieben (KI-generierte Kunst)
+- 6.1: Zahlen für Deutschland auf das Jahr 2023 vereinheitlicht, BIP Grafik ersetzt
+- 7.2: bessere Quelle für Aussage "10% der Deutschen Bevölkerung sind Schüler" ([37])
+- 7.3: Eintrag in "Neue Worte" für "Vertrauenslehrer", da in abweichender Bedeutung benutzt; Variation nach Muttersprache in Kasten
+- 7.3: Kasten "Schaffung ausreichender Grünflächen um Schulgebäude in Städten" (statt bisher normaler Fließtext)
+- 7.6: Möglichkeiten, den Einführungszeitslot zu füllen, in eine Liste umgewandelt
+- 9.1: Redesign Bad (WC hinter Tür), Tür Eingangsbereich->Flur öffnet nach innen
+- 9.3: Neue Maße der Stadtquadrate: 450m x 320m statt 350m x 350m. Bilder "Vogelperspektive der Stadt" und "Buslinien und Zugstrecken" sowie Text angepasst
+- 9.3: Komplett neu entworfene unterirdische Verkehrskreuzung, mit Möglichkeit des Linksabbiegens
+- 9.3: Angabe zu unterirdischen Straßen allgemeiner formuliert: mindestens zweispurig
+- 10.1: Fußnote Demokratieindex aktualisiert (Verweis auf englischen Wikipediaartikel, Daten von 2024 statt 2023)
+- 10.2: bessere Erklärung, was eine Blockchain ist (ab "Blockchains sind Software.")
+- 10.2: Öffentliche Verkehrsmittel als Zentralstaatsaufgabe aufgelistet (wurde in Buchversion 1.2 der Verfassung hinzugefügt)
+- 10, Anforderungsabgleich: Neuer Punkt bei Robustheit: Ein Äquivalent zu „im Kriegsfall finden keine Wahlen statt“ ist unnötig.
+- 12.2: Erklärung zu Alltagsaufgaben der Kompetenz "Kontakt" entfernt (unnötiges Detail)
+- 13.4: zwei Schlussabsätze umgeschrieben, da "Projekt Entfaltung" nicht mehr der Untertitel ist
+- Lehrplan Schulkonzept:
+  - Maße Vorraussetzung für Mechanik und für Kochen, Stichpunkte für Modulumfang Kochen
+  - Planet Erde Vorraussetzung für Weltall
+  - Planung&Organisation umbenannt in Planung
+- Anhang Verfassung:
+  - Prüfaccounts, neue Artikel 4.10 und 6.10: definiert, wie die Blöcke der Blockchain generiert werden
+  - Klarer definiert und erklärt, wie Signaturen und amtliche Daten funktionieren
+  - Begriff "Einbringungshürde" entfernt
+  - Verwandlung eines Staates: Abstimmungsbeispiel in Textbox umgewandelt
+- neue Glossareinträge: Freifläche, Kompetenzprüfung, Vertrauenslehrer
+- Link zu Lizenz "CC BY 2.0" korrigiert
+
 
 #### Version 1.2
 

@@ -34,4 +34,4 @@ A book of achievable utopias.
 
 ---
 
-Right now only the original German version of the book is available. An English translation will follow within the next months.
+Right now only the original German version of the book is available in print. The English translation is already [freely available online](/editions) though!

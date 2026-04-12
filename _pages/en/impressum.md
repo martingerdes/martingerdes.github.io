@@ -59,7 +59,7 @@ This website contains links to external websites. As the contents of these third
 <p>Martin Gerdes<br />
 Salomonstraße 37<br />
 02826 Görlitz<br />
-email: contact@futurevisions.world</p>
+email: contact@futurities.net</p>
 <p>The controller is the natural or legal person who alone or jointly with others determines the purposes and means of the processing of personal data (e.g. names, email addresses, etc.)</p>.
 <h3>Storage period</h3>
 <p>Unless a more specific storage period has been specified in this privacy policy, your personal data will remain with us until the purpose for processing the data no longer applies. If you assert a justified request for deletion or revoke your consent to data processing, your data will be deleted unless we have other legally permissible reasons for storing your personal data (e.g. retention periods under tax or commercial law); in the latter case, deletion will take place after these reasons no longer apply.</p>
