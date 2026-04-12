@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+  <!-- This file was converted to HTML by Writer2xhtml ver. 1.7. See http://writer2xhtml.sourceforge.net for more info. -->
+  <head>
+    <title>Zukunftsvisionen: Projekt Entfaltung</title>
+    <meta charset="UTF-8" />
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.DC" />
+    <meta content="Zukunftsvisionen: Projekt Entfaltung" name="DC.title" />
+    <meta content="" name="DC.subject" />
+    <meta content="" name="DC.description" />
+    <meta content="" name="DC.creator" />
+    <meta content="2026-04-12T11:50:41.887944668" name="DC.date" />
+    <meta content="en" name="DC.language" />
+<link rel="stylesheet" type="text/css" href="book_html.css">
+  </head>
+  <body>
+    <header>
+      <nav id="header"><a href="part.html">First</a> <a href="part59.html">Previous</a> <a href="part61.html">Next</a> <a href="part66.html">Last</a> <a href="part1.html">Contents</a> <a href="part63.html">Index</a> </nav>
+    </header>
+    <div dir="ltr" id="content">
+      <h1 id="toc128" style="page-break-before:always"><a id="RefHeadingToc2663402790938690"></a>PD System Specification</h1>
+      <h3 id="toc129">PD Cable</h3>
+      <p class="Textbody">A PD cable contains four wire pairs (eight pins<span class="Footnoteanchor"><a href="#ftn128" id="bodyftn128">128</a></span>). For comparison: RJ45 (Power over Ethernet, PoE) has four as well (eight pins), while USB-C has 24 pins. I am taking more cues from Ethernet here, because more wire pairs mean more expensive cables. For USB this is less important, since it is intended for short distances. PD cables, however, are meant to be up to 50 m long (Ethernet allows up to 100 m).</p>
+      <p class="Textbody">That said, we do not have to use the full width of the PD connector with pins. After all, USB-C fits 24 pins into this space. To avoid having to change the connector later, it is better to leave room for additional pins, even if we currently have no idea what they might be needed for.<br />Signals and power use symmetric transmission; a separate ground is not required (as with PoE).</p>
+      <p class="Textbody"><span style="font-style:normal">Initially, before two connected devices have negotiated anything else via the PD protocol, only two wire pairs of the PD cable are in use. On both, 12V power is transmitted in the same direction (towards the consumer). For data transmission, one wire pair can be used in each direction (full duplex). Compared to USB and PoE, this is simplified and uses a higher initial voltage, since we always want to supply power to one device.</span><br />For devices that require little power and do not use the maximum possible data rate, this is sufficient. They can ignore the other two wire pairs, and they can be supplied with (appropriately labeled!) PD cables that carry only these two wire pairs.</p>
+      <p class="Textbody">Via these wires, devices can determine which protocol version they speak and agree on the lowest common denominator. They can exchange identifying data (manufacturer, model, serial number, production date), communicate which signals they understand and which they send, transmit and receive data from other devices, switch the supply voltage from 12V to 48V (which is still considered roughly safe for direct current and is also the highest voltage level used by USB and PoE), and negotiate the use of the other two wire pairs (if present).</p>
+      <p class="Textbody">The third wire pair can be used exactly like the first two: it can transmit 48V power to the consumer and double the data rate in one of the two directions.</p>
+      <p class="Textbody">The fourth wire pair, by contrast, is special and reflects the prioritization of power transmission in the PD system: it is a power-only pair, significantly thicker, and can transmit only power, not data.</p>
+      <h3 id="toc130">380V Cable</h3>
+      <p class="Textbody">Under normal circumstances, the entire system operates with an initial voltage of 12V and an operating voltage of 48V. Having only a small number of voltage levels should significantly simplify the design of the system. Fewer voltage-level conversions also increase the overall efficiency of the system, and it is unproblematic to step 48V down to 1.5V or less in a single step inside the devices.[79]</p>
+      <p class="Textbody">There are, however, cases in which the amount of power that can be transmitted this way is not sufficient: for supplying power to an apartment, for individual high-consumption appliances such as a stove or refrigerator, or for connecting base stations of the PD network that provide direct current to all other devices. These cases require a more powerful cable.</p>
+      <p class="Textbody">The 380V cable has 12 normal wire pairs, instead of the usual 3, as well as an even thicker power-only wire pair.<br />If the cable is operated at 12V/48V, it has sufficient power and data capacity to be split into four PD cables. The power from the power-only pair can be split passively (just like a classic power cable on a power strip).<br />If, by contrast, the power-only pair is operated at 380V, this cable can transmit any amount of power a household requires. Unlike the PD cable, its connector and insulation are designed to handle 380V on the power-only pair.</p>
+      <h3 id="toc131">Version Numbers</h3>
+      <p class="Textbody">On every cable and every outlet there should be a version number printed. Each version number is associated with minimum requirements that the cable’s conductors must meet (electrical properties). Apart from additional conductors, improvements can be achieved through shorter cable lengths, larger conductor cross-sections, different metals, better insulation, or a different cable structure. All changes to these minimum requirements must be backward-compatible, so that a higher version number always also fulfills all minimum requirements of lower version numbers. Maximum signal propagation times must not be a minimum requirement, so that shorter cables are never the only way to achieve a higher version number.</p>
+      <h3 id="toc132">Line Losses</h3>
+      <p class="Textbody">The first three wire pairs in a PD cable each have a cross-section of 2×0.2mm², each carry a maximum of 12 watts, and, with a 50m cable (the permitted maximum), each incur 4.65% power loss.</p>
+      <p class="Textbody">The fourth wire pair has a cross-section of 2×1.0mm², carries a maximum of 60 watts, and with a 50m cable likewise has a power loss of 4.65% (five times the cross-section, five times the current).</p>
+      <p class="Textbody">In total, a PD cable can therefore transmit up to 96 watts, with a total conductor cross-section of 3.2mm².</p>
+      <p class="Textbody">The twelve wire pairs of the 380V cable leading to the PD base carry the first three wire pairs for each of the four PD outlets. Its power-only wire pair, by contrast, has a cross-section of 2×2.0mm², carries a maximum of 120 watts at 48V, and consequently again has a power loss of 4.65% at a cable length of 50m. Since it carries no data, its power can be passively distributed to the power conductors of the four PD outlets.</p>
+      <p class="Textbody">At 48V, the 380V cable can transmit a total of up to 264 watts. This is divided into 4×36 = 144 watts that are exclusively assigned to the PD outlets, and 120 watts of freely distributable power. Two of the four PD outlets can therefore simultaneously draw the maximum possible 96 watts (36+60).</p>
+      <p class="Textbody">The 380V cable has a total conductor cross-section of 8.8mm².</p>
+      <p class="Textbody">If the same cable is used to transmit 380V, I would set the normal power limit at 4kW (for comparison: 16A at 230V alternating current correspond to 3.68kW). At a cable length of 50m, this results in 2.5% power loss. Other power limits will, however, also be configurable in the PD bases.</p>
+      <p class="Textbody">380V cables connecting PD bases (known when wiring a residence for electricity) contain a power-only wire pair with a cross-section of 2×4.0mm² (total cable cross-section 12.8mm²). With a cable length of 50 m, the same 2.5% power loss then occurs only at 8kW of power.</p>
+      <p class="Textbody">The maximum transferable power depends on the actual cable length. If the 50m length is fully utilized, a cable with an even larger conductor cross-section can be used if required.</p>
+      <p class="Textbody">In practice, a cable length of 50m will of course be reached very rarely within an apartment. The actual line losses are then proportionally lower (example: 10m cable length from a PD base to a device supplied with 96 watts at 48V: 0.93%).</p>
+      <h3 id="toc133">Signals</h3>
+      <p class="Textbody">Signals sent by devices—such as “On”, “Off”, “Trigger”, “x%”, “+x%”, “−x%”, modes, measurement values, and so on—are standardized. The instruction leaflet that comes with an LED will list which signals the LED understands and what effect each numbered signal has.</p>
+      <p class="Textbody">Which signals are forwarded to connected devices can be filtered by signal type, number, and room<span class="Footnoteanchor"><a href="#ftn129" id="bodyftn129">129</a></span>. PD devices normally send signals with number “1”. If, however, they have multiple buttons or controls, they use additional numbers in ascending order to distinguish them.<br />In the <a id="idx584"></a>GUI, it can be specified for each connection that a value should be added to this number before it is forwarded.<br />Multiple devices can be grouped together to handle them uniformly and to only have to change a single place when a new device is added.</p>
+      <p class="Textbody"><span style="text-decoration:underline">Example</span>:</p>
+      <p class="Textbody">For an LED, the instruction leaflet lists the following:</p>
+      <p class="ListNarrow">• <span style="text-decoration:none"> s</span>upported received signals: “On,” “Off,” “x%”</p>
+      <p class="ListNarrow">• <span style="text-decoration:none"> </span>1: switches the light on or off; x% dims it</p>
+      <p class="ListNarrow">• <span style="text-decoration:none"> </span>2: x% sets the red component of the light</p>
+      <p class="ListNarrow">• <span style="text-decoration:none"> </span>3: x% sets the green component of the light</p>
+      <p class="ListNarrow">• <span style="text-decoration:none"> </span>4: x% sets the blue component of the light</p>
+      <p class="Textbody">The button sends “Trigger” whenever it is pressed; the rotary knob sends “−1%” or “+1%” whenever it is turned far enough to the left or right.<br />In other words, the LED and the button are both extremely simple and maintain no internal state. However, the signals sent by the button and those expected by the LED do not match.</p>
+      <p class="Textbody">That is not a problem though, as the PD bases provide conversion options for this in the form of intermediate stages. These can be provided small programs (delay, x% ramp over time, x% to color wheel, …) or custom if–then conditions (if x and y, do a and b). Using an intermediate stage, “Trigger” can be translated into “On” or “Off”, and “+1%” / “−1%” into “x%”, with the PD bases maintaining the current state.<br />In this example, however, no intermediate stage is required: when button and LED are connected in the PD bases, those detect that the button sends “Trigger”, while the LED expects “On” and “Off”. Consequently, the PD bases will remember the current state and, for each “Trigger” received from the button, send either the “On” or “Off” signal to the LED.</p>
+      <p class="Textbody">The same would work with a rotary knob for dimming instead of a button (“+1%” / “−1%” versus “x%”). If, on the other hand, a single rotary knob is meant to control the color of the light, an intermediate stage would be added in the <a id="idx585"></a>GUI that translates one percentage value into RGB values of a color wheel and outputs the three required percentage values.</p>
+      <p class="Textbody">For greater automation, the PD bases themselves can also generate signals: at a specific time, or when a device in a certain mode appears or disappears in a certain room within the PD network.</p>
+      <p class="Textbody">If the PD system is meant to play music or sounds on speakers in a room (as an alarm, or to help with falling asleep), the audio track can come from a device in the PD network as a response to a signal. Alternatively, the file can be played directly by the PD base itself (triggered via an intermediate step in the <a id="idx586"></a>GUI).</p>
+      <p class="Textbody">If multiple devices are connected via the PD network that only make sense to use together, one of them can transmit a script that controls how it connects to the others. All devices are plugged in, then “Connect” is selected in the <a id="idx587"></a>GUI for the central device, and the devices automatically connect as intended. There are options to run this script automatically for this device only, for all devices of the same model or manufacturer, or for all devices. The respective script then runs whenever a device is connected to or removed from the PD network—if one is willing to delegate that much control.</p>
+      <p class="Textbody">The connection to the internet and connecting to other PD networks are handled as special cases.</p>
+      <p class="Textbody">For internet connectivity, a device can advertise the capability, and the PD bases route the corresponding data to and from that device. For all other devices, a whitelist or blacklist can be configured according to p<a id="idx588"></a>reference: either only explicitly approved devices are allowed internet access, or all devices are allowed unless access has been explicitly forbidden.</p>
+      <p class="Textbody">Connection to other PD networks is established via 380V cables. In addition to power transmission, it can be configured which devices the partner network is allowed to see and with which visible devices one’s own devices connect. One of the available settings is “all visible”.<span class="Footnoteanchor"><a href="#ftn130" id="bodyftn130">130</a></span></p>
+      <section>
+        <hr class="footnoterule" />
+        <aside id="ftn128">
+          <p class="Footnote"><a class="FootnoteSymbol" href="#bodyftn128">128</a> electrical contact surfaces of the plug</p>
+        </aside>
+        <aside id="ftn129">
+          <p class="Footnote"><a class="FootnoteSymbol" href="#bodyftn129">129</a> Based on the PD box to which a device is connected, the PD network knows the room it is in. In particular, filtering for “in the same room” is possible.</p>
+        </aside>
+        <aside id="ftn130">
+          <p class="Footnote"><a class="FootnoteSymbol" href="#bodyftn130">130</a> A usage scenario: From the building’s PD network, all signals from the door intercom with a specific number are forwarded to the apartment’s PD network (these are all signals from the outdoor unit assigned to that apartment). The target device is set to “all visible”, so that nothing needs to be reconfigured at the building’s PD base if a tenant wants to use a different or an additional device as the indoor unit of the door intercom.</p>
+        </aside>
+      </section>
+    </div>
+    <footer>
+      <nav id="footer"><a href="part.html">First</a> <a href="part59.html">Previous</a> <a href="part61.html">Next</a> <a href="part66.html">Last</a> <a href="part1.html">Contents</a> <a href="part63.html">Index</a> </nav>
+    </footer>
+  </body>
+</html>

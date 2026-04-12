@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://futurevisions.world/sitemap.xml
+User-agent: * Disallow: Sitemap: https://futurities.net/sitemap.xml

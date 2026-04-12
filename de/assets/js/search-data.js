@@ -23,7 +23,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-version-1-2",
+        },{id: "post-dns-changed-to-futurities-net",
+      
+        title: "DNS changed to futurities.net",
+      
+      description: "the url of the website changed to futurities.net",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/futurities.net/";
+        
+      },
+    },{id: "post-version-1-3",
+      
+        title: "Version 1.3",
+      
+      description: "Buchversion 1.3 veröffentlicht (deutsch und englisch)",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/version1_3/";
+        
+      },
+    },{id: "post-version-1-2",
       
         title: "Version 1.2",
       
@@ -116,7 +138,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%63%6F%6E%74%61%63%74@%66%75%74%75%72%65%76%69%73%69%6F%6E%73.%77%6F%72%6C%64", "_blank");
+          window.open("mailto:%63%6F%6E%74%61%63%74@%66%75%74%75%72%69%74%69%65%73.%6E%65%74", "_blank");
         },
       },{
         id: 'social-bluesky',

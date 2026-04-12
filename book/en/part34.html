@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+  <!-- This file was converted to HTML by Writer2xhtml ver. 1.7. See http://writer2xhtml.sourceforge.net for more info. -->
+  <head>
+    <title>Zukunftsvisionen: Projekt Entfaltung</title>
+    <meta charset="UTF-8" />
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.DC" />
+    <meta content="Zukunftsvisionen: Projekt Entfaltung" name="DC.title" />
+    <meta content="" name="DC.subject" />
+    <meta content="" name="DC.description" />
+    <meta content="" name="DC.creator" />
+    <meta content="2026-04-12T11:50:41.887944668" name="DC.date" />
+    <meta content="en" name="DC.language" />
+<link rel="stylesheet" type="text/css" href="book_html.css">
+  </head>
+  <body>
+    <header>
+      <nav id="header"><a href="part.html">First</a> <a href="part33.html">Previous</a> <a href="part35.html">Next</a> <a href="part66.html">Last</a> <a href="part1.html">Contents</a> <a href="part63.html">Index</a> </nav>
+    </header>
+    <div dir="ltr" id="content">
+      <h1 id="toc46" style="page-break-before:always"><a id="RefHeadingToc166263955455631"></a>8. <span class="StrongEmphasis">Infrastructure</span></h1>
+      <h2 id="toc51" style="page-break-before:always"><a id="RefHeadingToc694702425972073"></a>8.3 PD System</h2>
+      <p class="Textbody">The Schuko plug is now almost exactly 100 years old (first publicly presented in 1925, patented in 1929). Its purpose is to make the 230 V alternating current of our power grid safely usable in households.<span class="Footnoteanchor"><a href="#ftn60" id="bodyftn60">60</a></span> That said, the notion of safety is very relative: parents still have to childproof their homes by installing safety covers on all outlets.<br />This plug type is the standard in most European and some Asian countries. Other countries use different plug designs. But all of them originated in the early days of electrification.</p>
+      <p class="Textbody">Since then, 100 years of rapid technological progress have passed, and our electrical devices, methods of power generation, and possibilities for controlling electricity have changed dramatically.</p>
+      <p class="Textbody">I therefore want to outline a futurity for distributing electricity in buildings differently. There is likely considerable room for improvement here.</p>
+      <p class="Textbody">The first basic question I need to answer for this is: alternating current or direct current? In the “war of currents” around 1890 between Edison and Westinghouse, Westinghouse prevailed with alternating current. And no one wants to challenge that for large-scale distribution.<span class="Footnoteanchor"><a href="#ftn61" id="bodyftn61">61</a></span> Thanks to simple step-up and step-down voltage transformation, alternating current can be transmitted over long distances more cheaply and with lower losses.</p>
+      <p class="Textbody">The situation is different when it comes to the power requirements of end devices. In commercial buildings, more than 80% of all electricity was already consumed in the form of direct current in 2015.[43] And this share has only continued to increase since then. This means that every LED, every monitor, every laptop, and every other device with electronic circuitry requires its own power supply to convert the 230 V alternating current from the outlet into direct current.</p>
+      <p class="Textbody">All of these power supplies have a whole range of disadvantages:</p>
+      <p class="ListWide"><span style="text-decoration:none">•  </span>They require metals in their production and thus contribute significantly to humanity’s resource consumption.</p>
+      <p class="ListWide"><span style="text-decoration:none">•  </span>They are wear parts and, in many cases, the first thing to fail. Which in turn leads to higher costs and increased resource consumption.</p>
+      <p class="ListWide"><span style="text-decoration:none">•  </span>They make devices heavier and more expensive.</p>
+      <p class="ListWide"><span style="text-decoration:none">•  </span>Many devices spend most of their time in standby mode and consume very little power in that state. Under these conditions, converting alternating current to direct current (AC/DC) is extremely inefficient and contributes significantly to overall energy consumption.[44]</p>
+      <p class="Textbody">If, instead, direct current were supplied from the outlets in apartments and office spaces, all of these disadvantages could be avoided. The conversion from alternating to direct current could be performed centrally for multiple rooms and therefore with much higher efficiency. It would also require only a single central converter instead of one power supply per device, which would reduce resource consumption, costs, and device weight, and increase their longevity.</p>
+      <p class="Textbody">An obvious counterquestion is that different devices internally require very different voltage levels. Electrical circuits often need voltages of around 1.5 volts, for example. Converting direct current to other voltage levels is supposed to be difficult—isn’t that the whole reason we use alternating current for our power grid?</p>
+      <p class="Textbody">Here, somewhat unexpectedly, it makes a major difference whether one wants to transform large amounts of power or only very small ones. For large power quantities, such as in the transmission grid, transformers are clearly the best choice. They can convert enormous amounts of power to other voltage levels with high efficiency, without requiring complex control. The conversion ratio depends simply on the number of coil windings. No electronics, no moving parts, nothing that can easily break.</p>
+      <p class="Textbody">Converters for transforming large amounts of direct current to other voltage levels are more expensive, because they require capacitors and circuitry. The more power needs to be converted, the larger and more numerous these components must be in order to end up with smooth direct current again.</p>
+      <p class="Textbody">If, on the other hand, the power quantities are very small, as in electronic devices, and the required power quality is known precisely in advance (how much fluctuation is acceptable?), this can be achieved easily and cheaply with a step-down converter. This is simply a small circuit that can be integrated directly as part of a microchip. It uses virtually no material or weight, costs almost nothing, and should not fail any faster than the rest of the circuitry (though the risk posed by faulty input voltages naturally remains). When a device is pulling only a few milliwatts in standby mode, it is also far more efficient.</p>
+      <p class="Textbody">All right, direct current in the home is locked in. What about data transmission? After all, there is constant talk of smart power grids. Should devices send any information back to the central converter?</p>
+      <p class="Textbody">I think this question does not go far enough. The “Power over Ethernet” (PoE) standard demonstrates that it is entirely feasible to transmit data in addition to power over the <span style="font-style:italic">same</span> cable that carries the electricity.<br />And it is, for example, wonderfully convenient when you only have to plug your laptop into its docking station using a single USB-C cable—and that’s it. Through that one cable, it not only gets power, but at the same time internet access and connections to an external monitor, a mouse, and a printer.</p>
+      <p class="Textbody">Wouldn't it great if the power connection of <span style="font-style:italic">every</span> device not only supplied it with energy, but also connected it to the home automation system? Without requiring its own Wi-Fi chip? This keeps radio spectrum free for devices that truly need it, avoids connectivity issues caused by poor signal quality, eliminates the need to register each device with the correct wireless network (SSID), and saves weight and cost.<br />If devices are connected by cable anyway, it would be foolish not to use that connection for data transmission as well.</p>
+      <p class="Textbody">For USB, a new connector type has appeared every few years (USB-A/B/C, including mini and micro variants), and while the form factor of Ethernet cables (RJ45) has remained the same, there are many different cable types.<br />We, on the other hand, definitely want to avoid having to replace the power wiring of a house after just a few years because the technology has evolved. Tearing open walls to lay new cables is an enormous effort.</p>
+      <p class="Textbody">With that, we now have a rough idea of the requirements the new system must meet.</p>
+      <p class="Textbody">Fortunately, I do not have to start its design from scratch, but can take cues from USB and Ethernet (with PoE), adopt what works well, and combine these elements based on our requirements.<br />Ideally, one of the two systems would already fit these requirements as is. Unfortunately, both were designed for different use cases and would have too many drawbacks if adopted unchanged.</p>
+      <p class="Textbody">To be able to refer to things using sensible names, I call the entire new power system—including plug design and protocols—the <span style="text-decoration:underline">PD system</span>, where “PD” stands for “Power and Data,” with “Power” mentioned first to indicate where the focus lies.<br />The following description of the PD system is general in nature. Further details can be found in the appendix “PD System Specification”.</p>
+      <p class="Textbody">As form factor for the <span style="text-decoration:underline">PD cable</span>, I choose—to avoid incorrect connections—not USB-C itself, but something based on the same principle and of similar size.<span class="Footnoteanchor"><a href="#ftn62" id="bodyftn62">62</a></span> USB-C has proven itself well as a form factor, especially because it works well for small and thin devices (for example smartphones). It is also highly valued that it cannot be plugged in the wrong way around.</p>
+      <p class="Textbody">The <span style="text-decoration:underline">PD plug</span> contains electrical contacts for multiple wire pairs, over which power and/or data can be transmitted. Which wire pair is used for what purpose can vary depending on the use case, and the range of possibilities will grow with later versions. We will not use the full width of the PD plug, so that we can even increase the number of conductors later without requiring a new plug format. This way, the same plug has many different use cases, and we should not have to change it in the future.</p>
+      <p class="Textbody">The <span style="text-decoration:underline">PD network</span> consists of an interconnected set of base stations (<span style="text-decoration:underline">PD bases</span>). One of these base stations receives the apartment’s power supply via <span style="text-decoration:underline">380V cable</span> as direct current. If the apartment is instead supplied in the conventional way via 400V three-phase alternating current, a converter to direct current is placed upstream before the power reaches the PD base.<br />Within the apartment, there will be one PD base per room. These are connected to one another via 380V cables and can supply connected devices with 12V or 48V direct current via PD cables.<br />In addition, these PD bases take on the role of the fuse box, transmit data to and from connected devices, and thus network them with one another and with the internet.</p>
+      <p class="Textbody">The PD bases can be managed as a group via a browser or an app. There, for example, descriptive names for devices are stored and visible (“bedroom lamp”). For each device, information is available about its settings, its power consumption, whether it is switched on and functioning correctly. This makes it easier, for instance, to notice that a smoke detector or the cat flap is defective. In the event of a power shortage or a high electricity price, the apartment’s PD network can prioritize which devices lose power first. Because the PD bases exchange data with all devices (and with one another), this prioritization can, for example, also depend on the charge level of the battery storage or on the current temperature in the refrigerator.<br />If the apartment is supplied with power via a 380V cable, the apartment’s PD network is required to report to the electricity provider how much power consumption would drop if the electricity price were to rise, and at what lower price a consumer would come back online if it is currently switched off for price reasons. This serves the predictability of decisions when power consumption needs to be adjusted so that the overall power grid remains stable.</p>
+      <p class="Textbody">Each base stores all data about the PD network, and they synchronize each other as needed (the protocol for this is standardized). This means all bases can be replaced one after another (as long as one allows time for synchronization after each replacement), and in the end the PD network will not have forgotten anything, even though all devices are new.</p>
+      <p class="Textbody">From the PD bases, 380V cables lead to the wall connections, which I refer to in this system as <span style="text-decoration:underline">PD boxes</span>.<span class="Footnoteanchor"><a href="#ftn63" id="bodyftn63">63</a></span> Each PD box can supply up to four devices with power and data, so provides four <span style="text-decoration:underline">PD outlets</span>. The PD box itself is completely passive and contains no electronics, which makes it cheaper and more robust and means it consumes no power itself.</p>
+      <p class="Textbody">Here is an image of how I imagine such a PD box, with a Schuko wall outlet shown for size comparison:</p>
+      <div style="text-align:center">
+        <img alt="Image47" class="frameGraphics" id="Image47graphic" src="img/img025.png" style="width:43.634647rem;height:16.592125rem" />
+      </div>
+      <p class="imagefooter">left: PD box, right: Schuko outlet</p>
+      <p class="Textbody">Along the bottom edge of the PD box, the four PD outlets are arranged. Each one is easy to reach, even when the other outlets are in use.<br />Above the outlets are two cover panels, which are held securely in place by latching tabs (centered at the top), but can be removed easily.</p>
+      <div style="text-align:center">
+        <img alt="Image49" class="frameGraphics" id="Image49graphic" src="img/img026.png" style="width:42.704884rem;height:30.00567rem" />
+      </div>
+      <p class="imagefooter">PD box with cover panels removed</p>
+      <p class="Textbody">When the cover panels are removed, two empty slots become visible (the recesses with screws in their centers). The two screws hold the PD box as a whole in its mounting. If it is damaged, it can easily be replaced.<br />At the lower end of each slot two small recesses allow PD modules to be held securely in the slots by means of their upper latching tabs.</p>
+      <div style="text-align:left">
+        <img alt="Image50" class="frameGraphics" id="Image50graphic" src="img/img027.png" style="width:37.791496rem;height:30.047245rem" />
+      </div>
+      <p class="imagefooter" style="text-align:justify">left: button, right: rotary controller</p>
+      <p class="Textbody">Here, the two slots are occupied and connected. There will be special short PD cables for these connections.</p>
+      <p class="Textbody">In my system, these slots replace, among other things, all separately installed light switches. The button on the left could, for example, serve as the light switch for this room.<span class="Footnoteanchor"><a href="#ftn64" id="bodyftn64">64</a></span></p>
+      <p class="Textbody">The PD network provides a unified and flexible standard for home automation. There can be multiple vendors for PD bases and all other elements of the PD system, offering different approaches to making network and device connections as easy to configure as possible. Only the protocol itself is standardized, ensuring that components from different manufacturers work together seamlessly.</p>
+      <p class="Textbody">Thanks to the data exchange between PD bases, the optimal path can be chosen for all data and power transmissions—minimizing latency for data, and transmission losses for power. It is helpful if the PD bases are actually interconnected as a network (⇒ multiple paths from base A to base B), rather than being arranged in a star topology around a single central base. This also provides fault tolerance in case a cable connecting two bases is damaged.</p>
+      <p class="Textbody">Given that the PD bases are distributed throughout the apartment, form the central data nodes in addition to supplying power, and connect all devices to the internet, it almost suggests itself to also use them as access points*.<br />All that is required for this is an additional chip in the PD bases. Devices can seamlessly switch which base they communicate with via Wi-Fi, depending on which signal is currently strongest.<br />This way, devices can use Wi-Fi to exchange signals with other PD devices and integrate into the home automation system. Using triangulation, the PD bases can determine the room a Wi-Fi device is currently in.</p>
+      <p class="Textbody">PD outlets provide up to 96 watts of power at 48V. Where this is not sufficient, a different variant can instead be screwed into the PD box mounting—one that does not offer four standard PD outlets, but a single 380V outlet. In this case, the cable leading to the PD box is simply passed through, allowing much higher electrical power to be transmitted.<br />Because current can flow in both directions over 380V cables, it is also possible to connect solar panels or battery storage systems here.</p>
+      <p class="Textbody">PD bases are not only available in the permanently installed variant that connects the PD boxes in the walls to the power and data network. There are also PD bases that have only a single 380V outlet for connecting to a PD box, but offer multiple PD outlets and are designed to be as small and lightweight as possible. They can take on the same role as a USB hub, directly networking and powering multiple connected devices.<br />For this purpose, one of the devices directly connected to such a PD base registers as a “receiver” (the laptop) and is thus automatically connected to all other devices directly connected to the same base (mouse, keyboard, and monitor). Because of the short data paths, latencies are very low.<br />Since everything uses the PD network, the possibilities do not end there. The laptop can, for example, send its audio output to the stereo system in the living room without additional cables, by virtually connecting the two devices.</p>
+      <p class="Textbody">In addition to controlling lighting, PD modules can also be used to control the stereo system or any of the countless other devices that can respond to PD signals. Alternatively, the slots of PD boxes can be used for PD modules such as small speakers, microphones, or cameras that one wants to place at specific locations.<br />In the classic use case of the light switch, it can be defined—without any change to the wiring—which button switches which lights on and off, where dimmers are used, and where colors of lamps can be adjusted using rotary or slider controls.</p>
+      <p class="Boxed"><span style="text-decoration:underline">Lighting automation</span>: If one wants more than simply upgrading the classic light switch, one could, for example, define that the lights in a room are on exactly when a resident is present (determined through Wi-Fi devices carried at all times, such as smartphones). For rooms with windows, this could be limited to the period shortly before sunset until shortly after sunrise.<br />As soon as a device switches to “sleeping” mode, the lights in the room turn off, and the speaker in the room plays the selected nature sound for a while to help with falling asleep.<br />The alarm clock of one’s smartphone is set to send a trigger signal to the PD network 30 minutes before the alarm. In response, the lights in the room gradually become brighter to simulate a sunrise, while slowly increasing birdsong can be heard.</p>
+      <p class="Boxed">Just as an example.</p>
+      <p class="Textbody">As long as no devices are connected to a PD box, it is always safe to work on it without having to switch off a fuse. This is because, as long as no connected device negotiates otherwise (the PD box itself is a passive component), only 12V are present, which is harmless. Converting a PD box to 380V therefore does not require an electrician.<br />This also means that PD boxes do not require child safety covers: any PD outlet or 380V outlet that is not in use carries no dangerous current.</p>
+      <p class="Textbody">Contrary to my usual approach, I will briefly describe here how this futurity could be implemented (a topic we otherwise do not address before Chapter 13), because in this case it really is very easy to outline:</p>
+      <p class="ListWide"><span style="text-decoration:none">1. </span>An industry consortium takes up the idea and develops the standard.</p>
+      <p class="ListWide"><span style="text-decoration:none">2. </span>A state supports the rollout by requiring that new buildings from a certain date onward must install the PD system.</p>
+      <p class="ListWide"><span style="text-decoration:none">3. </span>Since a growing market is guaranteed, manufacturers develop devices that are powered via the PD system. Separate adapters are available for purchase to operate them from Schuko outlets (analogous to the familiar USB-C power supplies). Devices with a 380V outlet, by contrast, will be purchased specifically for either direct or alternating current, since too much efficiency would be lost through adapters (even though of course adapters would theoretically be possible).</p>
+      <p class="ListWide"><span style="text-decoration:none">4. </span>In existing buildings, the in-wall wiring is gradually replaced during renovations (for example when a tenant changes).</p>
+      <p class="Textbody">This should be sufficient as an implementation plan. The transition to the PD system can proceed building by building, even apartment by apartment—no different from the introduction of any other new technology. And unlike societal innovations, we have plenty of practice when it comes to new technologies.</p>
+      <h3 id="toc52" style="page-break-before:always"><a id="RefHeadingToc2420922828176810"></a>Review of Requirements</h3>
+      <table id="Table20table" style="margin-top:0;margin-bottom:0;margin-right:auto;border-collapse:collapse;width:100%">
+        <colgroup>
+          <col style="width:37.00703%" />
+          <col style="width:62.99297%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td style="border-top:0.06666667rem solid #000000;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:none;padding:0.3666142rem;vertical-align:top">
+              <p class="TableHeading">Requirement</p>
+            </td>
+            <td style="border:0.06666667rem solid #000000;padding:0.3666142rem;vertical-align:top">
+              <p class="TableHeading">Features of this Futurity</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:none;padding:0.3666142rem;vertical-align:top">
+              <p class="TableContents">low demands on people’s character</p>
+            </td>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:0.06666667rem solid #000000;padding:0.3666142rem;vertical-align:top">
+              <p class="ListTable"><span style="text-decoration:none">•  </span>used out of self-interest</p>
+              <p class="ListTable"><span style="text-decoration:none">•  </span>device connections only via the <a id="idx295"></a>GUI* of the PD network (exception: “receiver”)</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:none;padding:0.3666142rem;vertical-align:top">
+              <p class="TableContents">no world government</p>
+            </td>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:0.06666667rem solid #000000;padding:0.3666142rem;vertical-align:top">
+              <p class="TableContents">irrelevant—the power plug standard is the responsibility of each country</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:none;padding:0.3666142rem;vertical-align:top">
+              <p class="TableContents">costs considered</p>
+            </td>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:0.06666667rem solid #000000;padding:0.3666142rem;vertical-align:top">
+              <p class="ListTable"><span style="text-decoration:none">•  </span>lower energy and device costs</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:none;padding:0.3666142rem;vertical-align:top">
+              <p class="TableContents">automatic adaptation to a changing world</p>
+            </td>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:0.06666667rem solid #000000;padding:0.3666142rem;vertical-align:top">
+              <p class="ListTable"><span style="text-decoration:none">•  </span>digital reconfiguration</p>
+              <p class="ListTable"><span style="text-decoration:none">•  </span>easy version upgrades</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:none;padding:0.3666142rem;vertical-align:top">
+              <p class="TableContents">help citizens keep up with change</p>
+            </td>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:0.06666667rem solid #000000;padding:0.3666142rem;vertical-align:top">
+              <p class="ListTable"><span style="text-decoration:none">•  </span>simpler networking technology, therefore easier to control</p>
+              <p class="ListTable"><span style="text-decoration:none">•  </span>safer (no high voltage without a connected device)</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:none;padding:0.3666142rem;vertical-align:top">
+              <p class="TableContents">promote technological development</p>
+            </td>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:0.06666667rem solid #000000;padding:0.3666142rem;vertical-align:top">
+              <p class="ListTable"><span style="text-decoration:none">•  </span>new possibilities for intelligent devices</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:none;padding:0.3666142rem;vertical-align:top">
+              <p class="TableContents">resilience to withstand adversity</p>
+            </td>
+            <td style="border-top:none;border-bottom:0.06666667rem solid #000000;border-left:0.06666667rem solid #000000;border-right:0.06666667rem solid #000000;padding:0.3666142rem;vertical-align:top">
+              <p class="ListTable"><span style="text-decoration:none">•  </span>solar panels and batteries easy to integrate</p>
+              <p class="ListTable"><span style="text-decoration:none">•  </span>prioritization in case of power shortages, consumption responds to changes in electricity prices</p>
+              <p class="ListTable"><span style="text-decoration:none">•  </span>PD network reports expected changes depending on electricity price – load can be adjusted precisely through price changes</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="Textbody" style="font-size:0.8000001rem"> </p>
+      <section>
+        <hr class="footnoterule" />
+        <aside id="ftn60">
+          <p class="Footnote"><a class="FootnoteSymbol" href="#bodyftn60">60</a> The contacts are recessed. Fault currents are diverted via the protective earth contact (grounding). The circuit breaker trips if too much current is drawn or if current flows through a living body.</p>
+        </aside>
+        <aside id="ftn61">
+          <p class="Footnote"><a class="FootnoteSymbol" href="#bodyftn61">61</a> With the exception of high-voltage direct current transmission (HVDC) for power lines longer than 300 km.</p>
+        </aside>
+        <aside id="ftn62">
+          <p class="Footnote"><a class="FootnoteSymbol" href="#bodyftn62">62</a> My proposal: a bit narrower, since we will need fewer pins. This allows the cable to pass through holes with a smaller diameter.</p>
+        </aside>
+        <aside id="ftn63">
+          <p class="Footnote"><a class="FootnoteSymbol" href="#bodyftn63">63</a> If there were only a single PD base in the apartment, a cable would have to run from it to every PD box, which would be very unwieldy. Thanks to the networked structure, each PD box can be connected to the nearest base, which massively reduces the amount of cabling required. The PD network can thus grow to almost any needed size.</p>
+        </aside>
+        <aside id="ftn64">
+          <p class="Footnote"><a class="FootnoteSymbol" href="#bodyftn64">64</a> The PD network lists both the button and the LED lamp on the ceiling as connected. In the <a id="idx296"></a>GUI*, the two are linked so that the LED lamp receives all data that the button sends.</p>
+        </aside>
+      </section>
+    </div>
+    <footer>
+      <nav id="footer"><a href="part.html">First</a> <a href="part33.html">Previous</a> <a href="part35.html">Next</a> <a href="part66.html">Last</a> <a href="part1.html">Contents</a> <a href="part63.html">Index</a> </nav>
+    </footer>
+  </body>
+</html>
