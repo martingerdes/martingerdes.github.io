@@ -38,7 +38,7 @@ ninja.data = [{
       
         title: "DNS changed to futurities.net",
       
-      description: "the url of the website changed to futurities.net",
+      description: "the URL of the website changed to futurities.net",
       section: "Posts",
       handler: () => {
         

@@ -23,18 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/editions/";
           },
-        },{id: "post-dns-changed-to-futurities-net",
-      
-        title: "DNS changed to futurities.net",
-      
-      description: "the url of the website changed to futurities.net",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2026/futurities.net/";
-        
-      },
-    },{id: "post-version-1-3",
+        },{id: "post-version-1-3",
       
         title: "Version 1.3",
       
@@ -43,6 +32,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2026/version1_3/";
+        
+      },
+    },{id: "post-dns-zu-futurities-net-geändert",
+      
+        title: "DNS zu futurities.net geändert",
+      
+      description: "Die URL der Webseite hat sich zu futurities.net geändert",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/futurities.net/";
         
       },
     },{id: "post-version-1-2",
