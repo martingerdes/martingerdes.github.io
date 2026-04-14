@@ -31,6 +31,7 @@ Version 1.0 entspricht der 1. Auflage, Version 2.0 der 2. Auflage.
 
 #### Version 1.3
 
+- Untertitel geändert: "Konzepte für eine bessere Gesellschaft" (statt "Projekt Entfaltung")
 - Viele kleine Verbesserungen, um Sätze einfacher und verständlicher zu formulieren.
 - Typographie: Gedankenstrich genutzt (statt Bindestrich), um Gedanken zu trennen.
 - Typographie: "×" statt "x" als Multipliaktionssymbol eingesetzt
